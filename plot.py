@@ -29,7 +29,7 @@ for fname in files:
         continue
     x = data[:,0]
     y = data[:,1]
-    
+    y /=y[0] 
     # ----- DATA MANIPULATION --------------------------------------------------------------
     # Uncomment the relevent line from this section or add your own code
 
